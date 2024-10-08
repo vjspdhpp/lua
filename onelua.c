@@ -1,3 +1,4 @@
+#if 0
 /*
 ** Lua core, libraries, and interpreter in a single file.
 ** Compiling just this file generates a complete Lua stand-alone
@@ -118,4 +119,5 @@
 /* luac */
 #ifdef MAKE_LUAC
 #include "luac.c"
+#endif
 #endif

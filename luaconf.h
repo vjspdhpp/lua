@@ -41,8 +41,8 @@
 ** Define it if you want Lua to avoid the use of a few C99 features
 ** or Windows-specific features on Windows.
 */
-/* #define LUA_USE_C89 */
-
+/*  */
+#define LUA_USE_C89
 
 /*
 ** By default, Lua on Windows use (some) specific Windows features
@@ -133,7 +133,7 @@
 /*
 @@ LUA_32BITS enables Lua with 32-bit integers and 32-bit floats.
 */
-#define LUA_32BITS	0
+#define LUA_32BITS	1
 
 
 /*
